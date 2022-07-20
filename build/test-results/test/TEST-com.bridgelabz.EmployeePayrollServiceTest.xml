@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.EmployeePayrollServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-20T13:21:57" hostname="DESKTOP-8DEVOGL" time="0.046">
+<testsuite name="com.bridgelabz.EmployeePayrollServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-07-20T13:29:01" hostname="DESKTOP-8DEVOGL" time="0.051">
   <properties/>
-  <testcase name="given3Employees_WhenWrittenToFile_ShouldMatchEmployeeEntries()" classname="com.bridgelabz.EmployeePayrollServiceTest" time="0.046"/>
-  <system-out><![CDATA[Employee Details: 
+  <testcase name="givenFile_WhenRead_ShouldReturnNumberOfEntries()" classname="com.bridgelabz.EmployeePayrollServiceTest" time="0.042"/>
+  <testcase name="given3Employees_WhenWrittenToFile_ShouldMatchEmployeeEntries()" classname="com.bridgelabz.EmployeePayrollServiceTest" time="0.008"/>
+  <system-out><![CDATA[Employee Details from payroll-file.txt
+Employee Details:
+Employee Id: 1
+Employee Name: Jeff Bezos
+Employee Salary: 100000.0
+Employee Details:
+Employee Id: 2
+Employee Name: Bill Gates
+Employee Salary: 200000.0
+Employee Details:
+Employee Id: 3
+Employee Name: Mark Zuckerberg
+Employee Salary: 300000.0
+Employee Details: 
 Employee Id: 1
 Employee Name: Jeff Bezos
 Employee Salary: 100000.0

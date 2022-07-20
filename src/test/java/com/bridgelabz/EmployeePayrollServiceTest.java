@@ -24,4 +24,10 @@ public class EmployeePayrollServiceTest {
         Assertions.assertEquals(12, entries);
 
     }
+    @Test
+    public void givenFile_WhenRead_ShouldReturnNumberOfEntries() {
+        EmployeePayrollService employeePayrollService = new EmployeePayrollService();
+        long entries = employeePayrollService.readDataFromFile(EmployeePayrollService.IOService.FILE_IO);
+        Assertions.assertEquals(12, entries);
+    }
 }
