@@ -1,25 +1,2 @@
-(Employee Details from payroll-file.txt
-Employee Details:
-Employee Id: 1
-Employee Name: Jeff Bezos
-Employee Salary: 100000.0
-Employee Details:
-Employee Id: 2
-Employee Name: Bill Gates
-Employee Salary: 200000.0
-Employee Details:
-Employee Id: 3
- Employee Name: Mark Zuckerberg
-Employee Salary: 300000.0
-Employee Details: 
-Employee Id: 1
-Employee Name: Jeff Bezos
-Employee Salary: 100000.0
-Employee Details: 
-Employee Id: 2
-Employee Name: Bill Gates
-Employee Salary: 200000.0
-Employee Details: 
-Employee Id: 3
- Employee Name: Mark Zuckerberg
-Employee Salary: 300000.0
+PConnecting to databasejdbc:mysql://localhost:3306/payroll_service?useSSL=false
+HConnection is successful!!!!!!com.mysql.cj.jdbc.ConnectionImpl@909217e

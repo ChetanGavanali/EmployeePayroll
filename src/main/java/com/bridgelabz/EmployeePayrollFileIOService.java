@@ -7,8 +7,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeePayrollFileIOService {
-
+public class EmployeePayrollFileIOService  {
     public static String PAYROLL_FILE_NAME = "payroll-file.txt";
 
     public void writeData(List<EmployeePayrollData> employeePayrollList) {
@@ -46,23 +45,5 @@ public class EmployeePayrollFileIOService {
         }
         catch(IOException e) {e.printStackTrace();};
         return entries;
-    }
-
-    public List<String> readDataFromFile() {
-
-        List<String> employeePayrollList = new ArrayList<String>();
-
-        try {
-            Files.lines(new File(PAYROLL_FILE_NAME).toPath())
-                    .map(employee -> employee.trim())
-                    .forEach(employee -> {
-                        System.out.println(employee);
-                        employeePayrollList.add(employee);
-                    });
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return employeePayrollList;
     }
 }
